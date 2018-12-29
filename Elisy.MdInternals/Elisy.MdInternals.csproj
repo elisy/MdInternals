@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{895BB387-9D6A-49FF-B376-D06BB88A1A85}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Elisy.MdInternals</RootNamespace>
+    <AssemblyName>Elisy.MdInternals</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>MdInternals.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CfPackage.cs" />
+    <Compile Include="Cf\ImageWriter.cs" />
+    <Compile Include="Cf\Image.cs" />
+    <Compile Include="Cf\ImagePageHeader.cs" />
+    <Compile Include="Cf\ImageReader.cs" />
+    <Compile Include="Cf\ImageRow.cs" />
+    <Compile Include="Cf\ImageRowTypes.cs" />
+    <Compile Include="Cf\MSSQL1C81.cs" />
+    <Compile Include="Cf\MSSQL1C81.designer.cs">
+      <DependentUpon>MSSQL1C81.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CfuPackage.cs" />
+    <Compile Include="ErfPackage.cs" />
+    <Compile Include="EpfPackage.cs" />
+    <Compile Include="DataElements\IDataElement.cs" />
+    <Compile Include="DataElements\RefList.cs" />
+    <Compile Include="Parts\CommonModule.cs" />
+    <Compile Include="Parts\CommonTemplate.cs" />
+    <Compile Include="Parts\CommonPicture.cs" />
+    <Compile Include="Parts\Constant.cs" />
+    <Compile Include="Parts\CommonForm.cs" />
+    <Compile Include="Parts\CommandGroup.cs" />
+    <Compile Include="Parts\CommonCommand.cs" />
+    <Compile Include="Parts\ChartOfCharacteristicTypes.cs" />
+    <Compile Include="Parts\AccumulationRegister.cs" />
+    <Compile Include="Parts\Catalog.cs" />
+    <Compile Include="Parts\ChartOfAccounts.cs" />
+    <Compile Include="Parts\AccountingRegister.cs" />
+    <Compile Include="Parts\Configuration.cs" />
+    <Compile Include="DataElements\MetadataPartRef.cs" />
+    <Compile Include="Parts\ExternalReport.cs" />
+    <Compile Include="Parts\UpdateInfo.cs" />
+    <Compile Include="Parts\ExternalDataProcessor.cs" />
+    <Compile Include="Parts\PartiallyResolvedPart.cs" />
+    <Compile Include="Resources\StringTemplates.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>StringTemplates.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Parts\Versions.cs" />
+    <Compile Include="Parts\Version.cs" />
+    <Compile Include="DataElements\Collection.cs" />
+    <Compile Include="Parts\Enum.cs" />
+    <Compile Include="Parts\Sequence.cs" />
+    <Compile Include="Parts\Report.cs" />
+    <Compile Include="Parts\DocumentJournal.cs" />
+    <Compile Include="Parts\DocumentNumerator.cs" />
+    <Compile Include="Parts\InformationRegister.cs" />
+    <Compile Include="Parts\WsReference.cs" />
+    <Compile Include="Parts\XdtoPackage.cs" />
+    <Compile Include="Parts\FunctionalOption.cs" />
+    <Compile Include="Parts\Language.cs" />
+    <Compile Include="Parts\WebService.cs" />
+    <Compile Include="Parts\ExchangePlan.cs" />
+    <Compile Include="Parts\StyleElement.cs" />
+    <Compile Include="Parts\Subsystem.cs" />
+    <Compile Include="Parts\EventSubscription.cs" />
+    <Compile Include="Parts\SettingStorage.cs" />
+    <Compile Include="Parts\SharedAttribute.cs" />
+    <Compile Include="Parts\Filter.cs" />
+    <Compile Include="Parts\Style.cs" />
+    <Compile Include="Parts\Interface.cs" />
+    <Compile Include="Parts\FunctionalOptionsParameter.cs" />
+    <Compile Include="Parts\SessionParameter.cs" />
+    <Compile Include="Parts\ScheduledJob.cs" />
+    <Compile Include="Parts\Role.cs" />
+    <Compile Include="Parts\ImageRowElement.cs" />
+    <Compile Include="DataElements\GeneralProperties.cs" />
+    <Compile Include="DataElements\DataElement.cs" />
+    <Compile Include="DataElements\LocalStringType.cs" />
+    <Compile Include="Parts\DataProcessor.cs" />
+    <Compile Include="Parts\Document.cs" />
+    <Compile Include="Serialization\DataSerializer.cs" />
+    <Compile Include="MetadataPackage.cs" />
+    <Compile Include="Parts\MetadataPart.cs" />
+    <Compile Include="Attributes.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Parts\RootPointer.cs" />
+    <Compile Include="Serialization\DataSerializerHelper.cs" />
+    <Compile Include="Parts\UnresolvedPart.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\StringTemplates.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>StringTemplates.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="MdInternals.snk" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

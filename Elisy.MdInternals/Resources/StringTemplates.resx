@@ -1,0 +1,499 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccumulationRegister" xml:space="preserve">
+    <value>{
+  1,
+  {
+    26,
+    "#ElisyBound:RecordTypeId",
+    "#ElisyBound:RecordValTypeId",
+    "#ElisyBound:ManagerTypeId",
+    "#ElisyBound:ManagerValTypeId",
+    "#ElisyBound:SelectionTypeId",
+    "#ElisyBound:SelectionValTypeId",
+    "#ElisyBound:ListTypeId",
+    "#ElisyBound:ListValTypeId",
+    "#ElisyBound:RecordSetTypeId",
+    "#ElisyBound:RecordSetValTypeId",
+    "#ElisyBound:RecordKeyTypeId",
+    "#ElisyBound:RecordKeyValTypeId",
+    {
+      0,
+      {
+        0,
+        {0,0,"#ElisyBound:Uuid"},
+        "#ElisyBound:Name",
+        "#ElisyBound:Synonym",
+        "#ElisyBound:Comment"
+      }
+    },
+    "#ElisyBound:Guid_1_14",
+    "#ElisyBound:Int_1_15",
+    "#ElisyBound:Int_1_16",
+    0,
+    "#ElisyBound:Int_1_18",
+    0,
+    "#ElisyBound:Int_1_20",
+    "#ElisyBound:List_1_21",
+    00000000-0000-0000-0000-000000000000,
+    {0},
+    {0},
+    "#ElisyBound:List_1_25"
+  },
+  6,
+  {3daea016-69b7-4ed4-9453-127911372fe6,0},
+  {99f328af-a77f-4572-a2d8-80ed20c81890,0},
+  "#ElisyBound:List_5",
+  "#ElisyBound:List_6",
+  "#ElisyBound:List_7",
+  "#ElisyBound:List_8"
+}</value>
+  </data>
+  <data name="CommonModule" xml:space="preserve">
+    <value>{
+  1,
+  {
+    12,
+    {
+      0,
+      {0,0,"#ElisyBound:Uuid"},
+      "#ElisyBound:Name",
+      "#ElisyBound:Synonym",
+      "#ElisyBound:Comment"
+    },
+    "#ElisyBound:ClientOrdinaryApplication",
+    "#ElisyBound:Server",
+    "#ElisyBound:ExternalConnection",
+    "#ElisyBound:Privileged",
+    "#ElisyBound:Global",
+    "#ElisyBound:ClientManagedApplication",
+    "#ElisyBound:ReturnValuesReuse",
+    "#ElisyBound:ServerCall"
+  },
+  0
+}</value>
+  </data>
+  <data name="Configuration" xml:space="preserve">
+    <value>{
+  2,
+  {"#ElisyBound:Guid_1_0"},
+  6,
+  {
+    9cd510cd-abfc-11d4-9434-004095e12fc7,
+    {
+      1,
+      {
+        36,
+        {
+          0,
+          {
+            0,
+            {0,0,"#ElisyBound:Uuid"},
+            "#ElisyBound:Name",
+            "#ElisyBound:Synonym",
+            "#ElisyBound:Comment"
+          }
+        },
+        "",
+        "#ElisyBound:Int_3_1_1_3",
+        "#ElisyBound:BriefInformation",
+        "#ElisyBound:DetailedInformation",
+        "#ElisyBound:Copyright",
+        "#ElisyBound:VendorInformationAddress",
+        "#ElisyBound:ConfigurationInformationAddress",
+        "#ElisyBound:Guid_3_1_1_9",
+        "#ElisyBound:Guid_3_1_1_10",
+        "#ElisyBound:Guid_3_1_1_11",
+        "#ElisyBound:Guid_3_1_1_12",
+        "#ElisyBound:Int_3_1_1_13",
+        "#ElisyBound:String_3_1_1_14",
+        "#ElisyBound:String_3_1_1_15",
+        "#ElisyBound:String_3_1_1_16",
+        1,
+        {0,0},
+        1,
+        {0,0},
+        1,
+        00000000-0000-0000-0000-000000000000,
+        00000000-0000-0000-0000-000000000000,
+        "#ElisyBound:Guid_3_1_1_24",
+        00000000-0000-0000-0000-000000000000,
+        "#ElisyBound:Int_3_1_1_26",
+        {0,0},
+        1,
+        "#ElisyBound:Int_3_1_1_29",
+        00000000-0000-0000-0000-000000000000,
+        00000000-0000-0000-0000-000000000000,
+        00000000-0000-0000-0000-000000000000
+      },
+      21,
+      "#ElisyBound:Roles",
+      "#ElisyBound:CommonTemplates",
+      "#ElisyBound:CommonModules",
+      "#ElisyBound:ScheduledJobs",
+      "#ElisyBound:SharedAttributes",
+      "#ElisyBound:SessionParameters",
+      "#ElisyBound:FunctionalOptionsParameters",
+      "#ElisyBound:Subsystems",
+      "#ElisyBound:Interfaces",
+      "#ElisyBound:Styles",
+      "#ElisyBound:Filters",
+      "#ElisyBound:SettingStorages",
+      "#ElisyBound:EventSubscriptions",
+      "#ElisyBound:StyleElements",
+      "#ElisyBound:CommonPictures",
+      "#ElisyBound:ExchangePlans",
+      "#ElisyBound:WebServices",
+      "#ElisyBound:Languages",
+      "#ElisyBound:FunctionalOptions",
+      "#ElisyBound:XdtoPackages",
+      "#ElisyBound:WsReferences"
+    }
+  },
+  {
+    9fcd25a0-4822-11d4-9414-008048da11f9,
+    {
+      6,
+      {
+        1,
+        {
+          {0,0,"#ElisyBound:Guid_4_1_1_1_0_2"},
+          "#ElisyBound:Guid_4_1_1_1_1"
+        },
+        15,
+        "#ElisyBound:Constants",
+        "#ElisyBound:Documents",
+        "#ElisyBound:CommonForms",
+        "#ElisyBound:InformationRegisters",
+        "#ElisyBound:CommandGroups",
+        "#ElisyBound:CommonCommands",
+        "#ElisyBound:DocumentNumerators",
+        "#ElisyBound:DocumentJournals",
+        "#ElisyBound:Reports",
+        "#ElisyBound:ChartsOfCharacteristicTypes",
+        "#ElisyBound:AccumulationRegisters",
+        "#ElisyBound:Sequences",
+        "#ElisyBound:DataProcessors",
+        "#ElisyBound:Catalogs",
+        "#ElisyBound:Enums"
+      }
+    }
+  },
+  {
+    e3687481-0a87-462c-a166-9f34594f9bba,
+    {
+      1,
+      {
+        0,
+        {0,0,"#ElisyBound:Guid_5_1_1_1_2"}
+      },
+      2,
+      "#ElisyBound:ChartsOfAccounts",
+      "#ElisyBound:AccountingRegisters"
+    }
+  },
+  {
+    9de14907-ec23-4a07-96f0-85521cb6b53b,
+    {
+      1,
+      {
+        {0,0,"#ElisyBound:Guid_6_1_1_0_2"}
+      },
+      2,
+      {30b100d6-b29f-47ac-aec7-cb8ca8a54767,0},
+      {f2de87a8-64e5-45eb-a22d-b3aedab050e7,0}
+    }
+  },
+  {
+    51f2d5d8-ea4d-4064-8892-82951750031e,
+    {
+      1,
+      {
+        0,
+        {0,0,"#ElisyBound:Guid_7_1_1_1_2"}
+      },
+      2,
+      "#ElisyBound:List_7_1_3",
+      "#ElisyBound:List_7_1_4"
+    }
+  },
+  {
+    e68182ea-4237-4383-967f-90c1e3370bc7,
+    {
+      1,
+      {
+        {0,0,"#ElisyBound:Guid_8_1_1_0_2"}
+      },
+      1,
+      {5274d9fc-9c3a-4a71-8f5e-a0db8ab23de5,0}
+    }
+  },
+  {
+    {0,"",""}
+  }
+}</value>
+  </data>
+  <data name="DataProcessor" xml:space="preserve">
+    <value>{
+  1,
+  {
+    16,
+    "#ElisyBound:Guid_1_1",
+    "#ElisyBound:Guid_1_2",
+    {
+      0,
+      {
+        0,
+        {0,0,"#ElisyBound:Uuid"},
+        "#ElisyBound:Name",
+        "#ElisyBound:Synonym",
+        "#ElisyBound:Comment"
+      }
+    },
+    "#ElisyBound:Guid_1_4",
+    "#ElisyBound:Int_1_5",
+    "#ElisyBound:Int_1_6",
+    "#ElisyBound:Guid_1_7",
+    "#ElisyBound:Guid_1_8",
+    "#ElisyBound:Guid_1_9",
+    "#ElisyBound:List_1_10",
+    "#ElisyBound:List_1_11"
+  },
+  5,
+  "#ElisyBound:List_3",
+  "#ElisyBound:Templates",
+  "#ElisyBound:List_5",
+  "#ElisyBound:Forms",
+  "#ElisyBound:List_7"
+}</value>
+  </data>
+  <data name="Enum" xml:space="preserve">
+    <value>{
+  1,
+  {
+    19,
+    "#ElisyBound:Guid_1_1",
+    "#ElisyBound:Guid_1_2",
+    "#ElisyBound:Guid_1_3",
+    "#ElisyBound:Guid_1_4",
+    {
+      0,
+      {
+        0,
+        {0,0,"#ElisyBound:Uuid"},
+        "#ElisyBound:Name",
+        "#ElisyBound:Synonym",
+        "#ElisyBound:Comment"
+      }
+    },
+    "#ElisyBound:Int_1_6",
+    "#ElisyBound:Guid_1_7",
+    "#ElisyBound:Guid_1_8",
+    00000000-0000-0000-0000-000000000000,
+    00000000-0000-0000-0000-000000000000,
+    2,
+    "#ElisyBound:Int_1_12",
+    00000000-0000-0000-0000-000000000000,
+    00000000-0000-0000-0000-000000000000,
+    "#ElisyBound:List_1_15",
+    "#ElisyBound:List_1_16",
+    "#ElisyBound:List_1_17",
+    "#ElisyBound:List_1_18",
+    {
+      0,
+      {0}
+    }
+  },
+  4,
+  "#ElisyBound:List_3",
+  {3daea016-69b7-4ed4-9453-127911372fe6,0},
+  {6d8d73a7-ba29-401d-9032-3872ec2d6433,0},
+  "#ElisyBound:List_6"
+}</value>
+  </data>
+  <data name="ExternalDataProcessor" xml:space="preserve">
+    <value>{
+  1,
+  {"#ElisyBound:Guid_1_0"},
+  1,
+  {
+    c3831ec8-d8d5-4f93-8a22-f9bfae07327f,
+    {1,"#ElisyBound:List_3_1_1",4,"#ElisyBound:List_3_1_3","#ElisyBound:List_3_1_4","#ElisyBound:Forms","#ElisyBound:List_3_1_6"}
+  }
+}</value>
+  </data>
+  <data name="ExternalReport" xml:space="preserve">
+    <value>{
+  1,
+  {"#ElisyBound:Guid_1_0"},
+  1,
+  {
+    e41aff26-25cf-4bb6-b6c1-3f478a75f374,
+    {1,"#ElisyBound:List_3_1_1",4,"#ElisyBound:List_3_1_3","#ElisyBound:List_3_1_4","#ElisyBound:List_3_1_5","#ElisyBound:List_3_1_6"}
+  }
+}</value>
+  </data>
+  <data name="FunctionalOption" xml:space="preserve">
+    <value>{1,"#ElisyBound:List_1",0}</value>
+  </data>
+  <data name="Report" xml:space="preserve">
+    <value>{
+  1,
+  {
+    19,
+    "#ElisyBound:Guid_1_1",
+    "#ElisyBound:Guid_1_2",
+    {
+      0,
+      {
+        0,
+        {0,0,"#ElisyBound:Uuid"},
+        "#ElisyBound:Name",
+        "#ElisyBound:Synonym",
+        "#ElisyBound:Comment"
+      }
+    },
+    "#ElisyBound:Guid_1_4",
+    "#ElisyBound:Guid_1_5",
+    00000000-0000-0000-0000-000000000000,
+    "#ElisyBound:Int_1_7",
+    "#ElisyBound:Guid_1_8",
+    00000000-0000-0000-0000-000000000000,
+    00000000-0000-0000-0000-000000000000,
+    "#ElisyBound:Int_1_11",
+    "#ElisyBound:Guid_1_12",
+    "#ElisyBound:Guid_1_13",
+    00000000-0000-0000-0000-000000000000,
+    "#ElisyBound:List_1_15",
+    "#ElisyBound:List_1_16",
+    00000000-0000-0000-0000-000000000000
+  },
+  5,
+  "#ElisyBound:List_3",
+  "#ElisyBound:List_4",
+  "#ElisyBound:List_5",
+  {b077d780-29e2-11d6-a3c7-0050bae0a776,0},
+  "#ElisyBound:List_7"
+}</value>
+  </data>
+  <data name="RootPointer" xml:space="preserve">
+    <value>{2,"#ElisyBound:MetadataPackageFileName","#ElisyBound:Data0"}</value>
+  </data>
+</root>

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="MSSQL1C81">
+  <DataContextMoniker Name="/MSSQL1C81DataContext" />
+  <nestedChildShapes>
+    <classShape Id="e6001a64-8ac4-4636-b553-20f038340904" absoluteBounds="0.5, 3.875, 2, 1.0016910807291668">
+      <DataClassMoniker Name="/MSSQL1C81DataContext/_YearOffset" />
+      <nestedChildShapes>
+        <elementListCompartment Id="564657a7-a1e6-47e8-a528-e973a8ad8bad" absoluteBounds="0.515, 4.335, 1.9700000000000002, 0.44169108072916669" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="93caf7d3-6683-493a-8b94-9148e814d60a" absoluteBounds="0.5, 0.875, 2, 1.9631982421875">
+      <DataClassMoniker Name="/MSSQL1C81DataContext/Config" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d6b6f6b4-83d2-4a7e-9f7e-b3722ea49b89" absoluteBounds="0.51500000000000012, 1.335, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3c63cd41-96a7-4f81-8271-f527aef62e6f" absoluteBounds="2.625, 0.875, 2, 1.9631982421875">
+      <DataClassMoniker Name="/MSSQL1C81DataContext/ConfigSave" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0b8551fe-77f7-489f-a569-516da7f35748" absoluteBounds="2.64, 1.335, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f7cf4f4f-7858-4847-8f84-87f70a3345b3" absoluteBounds="2.625, 3.875, 2, 1.0016910807291668">
+      <DataClassMoniker Name="/MSSQL1C81DataContext/DBSchema" />
+      <nestedChildShapes>
+        <elementListCompartment Id="05f922d8-9526-456a-8b17-c0167baa8f6e" absoluteBounds="2.64, 4.335, 1.9700000000000002, 0.44169108072916669" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8c27ecf2-931b-46ba-b455-d68a0e8cc7cf" absoluteBounds="4.75, 3.875, 2, 1.9631982421875">
+      <DataClassMoniker Name="/MSSQL1C81DataContext/File" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0e8bc5cb-0df9-4c3d-980d-2dc0b9859d9c" absoluteBounds="4.765, 4.335, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d5fb228e-de06-4a94-bbc1-12e0dcfefddc" absoluteBounds="4.75, 0.875, 2, 1.9631982421875">
+      <DataClassMoniker Name="/MSSQL1C81DataContext/Param" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6eba2cf2-a5c7-4012-9ff7-7f760c7d71cf" absoluteBounds="4.7650000000000006, 1.335, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
