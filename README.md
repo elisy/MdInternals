@@ -20,3 +20,15 @@ var project = new CfProject();
 var mp = project.Load(@"D:\Config\Xml\Config.cfproj");
 mp.Save(@"D:\config.cf");
 ```
+
+### Декомпилирование ОП-кода 1С
+
+```csharp
+string opCodeString = System.IO.File.ReadAllText(@"D:\OpCode.txt");
+CodeReader reader = new CodeReader(opCodeString, true);
+string decompiledString = reader.GetSourceCode();
+using (StreamWriter outfile = new StreamWriter(@"D:\OpCode-decompiled.txt"))
+{
+    outfile.Write(decompiledString);
+}
+```
