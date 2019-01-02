@@ -13,12 +13,26 @@ var project = new CfProject();
 project.Save(epf, @"D:\Config\Xml\Config.cfproj", ProjectType.Xml);
 ```
 
-### Создание файла из ранее выгруженного xml-формата
+### Создание файла из выгруженного xml-формата
 
 ```csharp
 var project = new CfProject();
 var mp = project.Load(@"D:\Config\Xml\Config.cfproj");
 mp.Save(@"D:\config.cf");
+```
+
+### Чтение из MSSQL-таблицы
+```csharp
+var image = ImageReader.ReadImageFromConfig(@"data source=192.168.1.2\SQL2005;user=login;pwd=password;database=Database1C");
+```
+
+### Обращение к внутренним файлам
+```csharp
+var mp = new EpfPackage();
+mp.Open(file);
+var root = mp.MetadataObjects.Where(m => m.ImageRow.FileName == "root").FirstOrDefault();
+var rp = new RootPointer(root.ImageRow);
+var part = mp.MetadataObjects.Where(m => m.ImageRow.FileName == rp.MetadataPackageFileName.ToString()).FirstOrDefault();
 ```
 
 ### Декомпилирование ОП-кода 1С
